@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#packages">Our Package</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+            <li><a href="#call-us">Call Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner Section -->
+    <header id="banner" class="banner">
+        <div class="banner-content">
+            <h1>Your Trusted Travel Agent's</h1>
+            <p>Your happiness is our happiness</p>
+        </div>
+    </header>
+
+    <!-- Main Section with Testimonials and Contact Us -->
+    <section class="main-section">
+        <!-- Testimonial Section -->
+        <div class="testimonial">
+            <div class="testimonial-content">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-img-container">
+                        <img src="braga.jpg" alt="Florence Hughes">
+                    </div>
+                    <blockquote>“Liburan jadi menyenangkan bersama Travel Agentku.”</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-icon">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <p class="author-name">Florence Hughes</p>
+                            <p class="author-detail">Ibu Rumah Tangga, 28</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-img-container">
+                        <img src="monas.jpg" alt="John Doe">
+                    </div>
+                    <blockquote>“Pelayanan yang sangat memuaskan, perjalanan tak terlupakan!”</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-icon">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <p class="author-name">John Doe</p>
+                            <p class="author-detail">Pengusaha, 35</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-img-container">
+                        <img src="surabaya.jpg" alt="Susan Lee">
+                    </div>
+                    <blockquote>“Rekomendasi terbaik untuk liburan keluarga.”</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-icon">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <p class="author-name">Susan Lee</p>
+                            <p class="author-detail">Manager, 40</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-navigation">
+                    <span class="testimonial-prev">&#10094;</span>
+                    <span class="testimonial-next">&#10095;</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Us Section -->
+        <div id="contact-us" class="contact-us">
+            <h2>Contact Us</h2>
+            <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+            <div class="contact-info">
+                <form id="contactForm">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="First and last name" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+
+                    <label for="interest">What are you interested in?</label>
+                    <select id="interest" name="interest" required>
+                        <option value="" disabled selected>Select option</option>
+                        <option value="Beach">Beach Getaway</option>
+                        <option value="Mountain">Mountain Adventure</option>
+                        <option value="City">City Tours</option>
+                    </select>
+
+                    <button type="submit">SEND</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages">
+        <h2>Our Package</h2>
+        <div class="package-list">
+            <div class="package-item">
+                <div class="package-header">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Bali</h3>
+                </div>
+                <p>Nikmati keindahan pantai-pantai eksotis, cagar budaya, dan kuliner khas di Bali. Paket ini mencakup tur ke Uluwatu, Tanah Lot, dan Ubud dengan akomodasi di resor mewah.</p>
+            </div>
+            <div class="package-item">
+                <div class="package-header">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Yogyakarta</h3>
+                </div>
+                <p>Jelajahi kota budaya Yogyakarta dengan kunjungan ke Keraton, Taman Sari, dan Malioboro. Rasakan suasana khas kota dengan kuliner dan seni tradisional yang memukau.</p>
+            </div>
+            <div class="package-item">
+                <div class="package-header">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Lombok</h3>
+                </div>
+                <p>Rasakan pesona Lombok dengan pantai-pantai indah dan keajaiban alamnya. Jelajahi Gunung Rinjani, Gili Trawangan, dan desa tradisional Sasak.</p>
+            </div>
+            <div class="package-item">
+                <div class="package-header">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Jakarta</h3>
+                </div>
+                <p>Temukan pesona ibu kota Jakarta dengan kunjungan ke Monas, Kota Tua, dan berbagai pusat perbelanjaan modern. Nikmati kuliner khas Betawi yang kaya rasa.</p>
+            </div>
+            <div class="package-item">
+                <div class="package-header">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Bandung</h3>
+                </div>
+                <p>Bandung menawarkan pemandangan pegunungan yang menakjubkan, belanja di factory outlet, dan wisata kuliner di kota yang dikenal sebagai Paris van Java.</p>
+            </div>
+            <div class="package-item">
+                <div class="package-header">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Surabaya</h3>
+                </div>
+                <p>Kota pahlawan Surabaya menawarkan perpaduan sejarah dan modernitas dengan kunjungan ke Tugu Pahlawan, Jembatan Suramadu, dan wisata kuliner yang menggoda.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Closing Argument Section -->
+    <section class="closing-argument">
+        <h2>Your Next Adventure Awaits</h2>
+        <p>Jangan lewatkan kesempatan untuk mengeksplorasi destinasi impian Anda dengan paket wisata kami. Kami memastikan setiap perjalanan Anda penuh dengan kenangan indah dan pengalaman unik yang tak terlupakan. Hubungi kami hari ini dan mulailah merencanakan liburan impian Anda!</p>
+        <button class="cta-button">Contact Us Now</button>
+    </section>
+
+    <!-- Call Us Section -->
+    <section id="call-us" class="call-us">
+        <h2>Call Us</h2>
+        <p>If you have any questions or would like to speak with our representative, feel free to call us at:</p>
+        <p><strong><i class="fas fa-phone"></i> +62-123-4567</strong></p>
+        <p><strong><i class="fas fa-clock"></i> 9 AM - 6 PM, Monday to Friday</strong></p>
+    </section>
+
+    <footer>
+        <p>Terms of Service | Privacy Policy</p>
+        <p>&copy; 2024 Travel Agent</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
