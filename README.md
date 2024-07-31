@@ -6,7 +6,7 @@
 
 - **📝 Testimoni:** Menampilkan ulasan dan pengalaman pengguna yang telah menggunakan layanan kami.
 - **📞 Contact Us:** Informasi menghubungi tim layanan pelanggan kami.
-- ** Our Package:** Daftar  wisata yang kami tawarkan
+- **Our Package:** Daftar  wisata yang kami tawarkan
 - **🔚 Penutup:** Bagian akhir yang menyajikan informasi tambahan dan ringkasan.
 - **📲 Call Us:** Opsi untuk menghubungi kami langsung melalui telepon.
 
